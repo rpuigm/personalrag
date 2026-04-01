@@ -7,7 +7,7 @@
     "PYTHON_VERSION": "3.11"
   },
 
-   "onCreateCommand": "sudo apt-get update && apt-get install -y && curl && git && build-essential && rm -rf /var/lib/apt/lists/*",
+   "onCreateCommand": "sudo apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*",
   
   "customizations": {
     "vscode": {
